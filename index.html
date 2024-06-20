@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Widget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-widget">
+        <h1>Weather Forecast</h1>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="search-btn">Search</button>
+        <div id="weather-info">
+            <div id="current-weather">
+                <h2 id="city-name"></h2>
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <img id="weather-icon" src="https://www.bing.com/images/search?view=detailV2&ccid=G%2frg1X2G&id=EA786A6F28B3D3AD0352AA9CC67836287C92E328&thid=OIP.G_rg1X2GABfZXj7HBJUWhwHaHa&mediaurl=https%3a%2f%2fcdn3.iconfinder.com%2fdata%2ficons%2fluchesa-vol-9%2f128%2fWeather-1024.png&exph=1024&expw=1024&q=weather+icon&simid=608036072739320046&FORM=IRPRST&ck=6CD976766A85BF93F4FAEFB2BB88C8C8&selectedIndex=13&itb=1" alt="Weather Icon">
+            </div>
+            <div id="forecast">
+                <h3>5-Day Forecast</h3>
+                <ul id="forecast-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
